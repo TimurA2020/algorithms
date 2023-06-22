@@ -1,7 +1,7 @@
 package binary;
 
 public class AddBinary {
-    public String addBinary(String a, String b) {
+    public static String addBinary(String a, String b) {
         int carry = 0;
         StringBuilder res = new StringBuilder();
         int sum;
@@ -22,7 +22,7 @@ public class AddBinary {
         return res.reverse().toString();
     }
 
-    public String addBinarySimple(String a, String b) {
+    public static String addBinarySimple(String a, String b) {
         long x = Integer.parseInt(a, 2);
         long y = Integer.parseInt(b, 2);
 

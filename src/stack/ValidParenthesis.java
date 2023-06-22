@@ -3,7 +3,7 @@ package stack;
 import java.util.Stack;
 
 public class ValidParenthesis {
-    public boolean isValid(String s) {
+    public static boolean isValid(String s) {
         if (s.length() % 2 != 0) {
             return false;
         }

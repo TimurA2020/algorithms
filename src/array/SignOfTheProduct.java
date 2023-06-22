@@ -2,7 +2,7 @@ package array;
 
 public class SignOfTheProduct {
 
-    public int arraySign(int[] nums) {
+    public static int arraySign(int[] nums) {
         int minusCount = 0;
         for (int i = 0; i < nums.length; i++) {
             if(nums[i] == 0) {

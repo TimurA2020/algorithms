@@ -3,7 +3,7 @@ package string;
 import java.util.Arrays;
 
 public class MinimizeStringLength {
-    public int minimizedStringLength(String s) {
+    public static int minimizedStringLength(String s) {
         char c = '1';
         int count = 0;
 
