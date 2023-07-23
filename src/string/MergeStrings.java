@@ -3,7 +3,6 @@ package string;
 public class MergeStrings {
     public String mergeAlternately(String word1, String word2) {
         StringBuilder result = new StringBuilder();
-        boolean inRange = true;
 
         int minLength = Math.min(word1.length(), word2.length());
 
